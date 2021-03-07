@@ -1,3 +1,5 @@
+"use strict";
+
 function hexToRGB(h) {
     let r = 0, g = 0, b = 0;
   
