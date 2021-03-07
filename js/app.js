@@ -1,3 +1,5 @@
+"use strict";
+
 const body = document.querySelector("body");
 const colorN = document.getElementById('color');
 const textCentral = document.getElementsByTagName('h1');
