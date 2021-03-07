@@ -9,14 +9,25 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <h2>Paleta de Colores</h2>
-
-    <div class="salida" id="salidaColor">COLOR</div>
-
+    <h1>Paleta de Colores</h1>
+    <div class="salida" id="salida">
+        <span>El código de color es:</span> 
+        <div class="salida-color" id="salidaColor">
+            color
+        </div>
+    </div>
+    <div class="contRGB">
+        <span>El color en rgba es:</span>
+        <div class="color-RGB" id="color-RGB">codigo rgb</div>
+    </div>
+    
+    <h2>Selecciona tu color:</h2>
     <div class="color-div">
         <input type="color" id="color">
     </div>
 
+    <script src="./js/invertColor.js"></script>
+    <script src="./js/rgb.js"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>
