@@ -5,19 +5,87 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Abril Fatface', cursive;
-    background-color: aqua;
 }
 
-h2{
+body{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-top: 10rem;
     text-align: center;
+}
+
+
+.salida-color{
+    text-transform: uppercase;
+    border: 2px solid #000000;
+}
+
+.contRGB, .salida{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+    width: 25%;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .salida{
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.color-RGB, .salida-color{
+    font-size: 0.8rem;
+    background-color: gray;
+    padding: 0.65rem;
+    margin-left: 1rem;
+    height: 2rem;
+    width: 11rem;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+input[type="color"]{
+    background-color: #fff;
+    padding: 20px;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 20px;
+}
+
+input:focus{
+    outline: none;
 }
 
 .color-div{
     text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 1rem;
 }
